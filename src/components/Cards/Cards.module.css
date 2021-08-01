@@ -3,7 +3,7 @@
     justify-content: center;
     width: 55%;
     padding: 45px;
-    background-image: linear-gradient(180deg,  50%, #cfd6e6 100%);
+    background-image: linear-gradient(180deg,  20%, #cfd6e6 100%);
     
     margin: 50px 0;
 }
@@ -24,15 +24,23 @@
 .deaths {
     border-bottom: 10px solid #c1121f;
 }
-
-/* .icon1 .MuiSvgIcon-root  {
-    padding: 10px;
-}
-    @media (min-width: 575px ) {
-        .icon1 .MuiSvgIcon-root{
-            padding:8px
-        
-    }
   
-}
- */
+.container {
+    display: flex;
+    justify-content: center;
+    width: 65%;
+  }
+  
+  @media only screen and (max-width: 770px) {
+    .container {
+      width: 100%;
+    }
+  }
+  .card {
+    margin: 0 2% !important;
+  }
+  @media only screen and (max-width: 770px) {
+    .card {
+      margin: 2% 0 !important;
+    }
+  }
