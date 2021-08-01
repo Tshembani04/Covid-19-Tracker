@@ -1,0 +1,17 @@
+body {
+    background-color: #f1f2f6;
+
+
+    
+    
+background-image: url('./assets/covid.png') ;
+background-repeat: no-repeat
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
